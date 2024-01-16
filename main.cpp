@@ -97,6 +97,7 @@ void update(int& score, bool& game_over) {
         score++;
         generateFood();
     } else {
+        
         snake.body.pop_back();
     }
 }
